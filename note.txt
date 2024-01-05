@@ -4,4 +4,7 @@ npm version <major|minor|patch>
 
 npm run build
 npm version patch
+git add .
+git commit -m "Updated"
+git push origin main
 npm build
