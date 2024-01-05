@@ -25,11 +25,18 @@ var Textarea = exports.Textarea = function Textarea() {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports["default"] = void 0;
+Object.defineProperty(exports, "Input", {
+  enumerable: true,
+  get: function get() {
+    return _Input["default"];
+  }
+});
+Object.defineProperty(exports, "Textarea", {
+  enumerable: true,
+  get: function get() {
+    return _Textarea["default"];
+  }
+});
 var _Input = _interopRequireDefault(require("./hooks/Input"));
 var _Textarea = _interopRequireDefault(require("./hooks/Textarea"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-var _default = exports["default"] = {
-  Input: _Input["default"],
-  Textarea: _Textarea["default"]
-};
