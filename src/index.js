@@ -1,4 +1,4 @@
-import Input from "./hooks/Input";
-import Textarea from "./hooks/Textarea";
+import Input from "./hooks/Input.js";
+import Textarea from "./hooks/Textarea.js";
 
 export { Input, Textarea };
