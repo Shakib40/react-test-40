@@ -1,8 +1,9 @@
 {
   "name": "react-test-40",
   "version": "1.0.10",
-  "description": "",
+  "description": "my name is react-test-40",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "npx babel src --out-file index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
