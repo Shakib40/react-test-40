@@ -2,9 +2,12 @@ npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-re
 
 npm version <major|minor|patch>
 
-npm run build
-npm version patch
+
+COMMANDS LINE :
+
 git add .
 git commit -m "Updated"
 git push origin main
-npm build
+npm run build
+npm version patch
+npm publish
