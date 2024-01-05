@@ -26,9 +26,10 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
-var _Input = require("./hooks/Input");
-var _Textarea = require("./hooks/Textarea");
+var _Input = _interopRequireDefault(require("./hooks/Input"));
+var _Textarea = _interopRequireDefault(require("./hooks/Textarea"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 var _default = exports["default"] = {
-  Input: _Input.Input,
-  Textarea: _Textarea.Textarea
+  Input: _Input["default"],
+  Textarea: _Textarea["default"]
 };

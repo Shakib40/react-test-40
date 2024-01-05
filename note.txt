@@ -5,9 +5,9 @@ npm version <major|minor|patch>
 
 COMMANDS LINE :
 
+npm run build
 git add .
 git commit -m "Updated"
 git push origin main
-npm run build
 npm version patch
 npm publish
