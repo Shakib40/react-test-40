@@ -28,15 +28,14 @@ Object.defineProperty(exports, "__esModule", {
 Object.defineProperty(exports, "Input", {
   enumerable: true,
   get: function get() {
-    return _Input["default"];
+    return _Input.Input;
   }
 });
 Object.defineProperty(exports, "Textarea", {
   enumerable: true,
   get: function get() {
-    return _Textarea["default"];
+    return _Textarea.Textarea;
   }
 });
-var _Input = _interopRequireDefault(require("./hooks/Input.js"));
-var _Textarea = _interopRequireDefault(require("./hooks/Textarea.js"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+var _Input = require("./hooks/Input.js");
+var _Textarea = require("./hooks/Textarea.js");
